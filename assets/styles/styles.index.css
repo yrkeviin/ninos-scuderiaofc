@@ -49,3 +49,11 @@ body {
     cursor: pointer;
     transition: .3s ease;
 }
+
+.logo:hover {
+    transform: scale(1.03);
+}
+
+.logo span {
+    text-shadow: 0 0 5px var(--main-color);
+}
