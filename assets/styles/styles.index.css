@@ -21,3 +21,8 @@
     --text-color: #fff;
     --main-color: #d72016;
 }
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
