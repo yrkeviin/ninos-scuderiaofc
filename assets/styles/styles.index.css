@@ -16,7 +16,7 @@
 }
 
 :root {
-    --bg-color: #080808;
+    --bg-color: #999999;
     --secondary-bg-color: #121212;
     --text-color: #fff;
     --main-color: #d72016;
@@ -40,6 +40,16 @@ body {
     justify-content: space-between;
     align-items: center;
     z-index: 5;
+}
+
+header img {
+    border-radius: 50%;
+    top: 3rem;
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px var(--main-color);
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
 }
 
 .logo {
@@ -78,4 +88,19 @@ body {
 section {
     min-height: 100vh;
     padding: 4rem 16rem;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16rem;
+}
+
+.home-content {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    text-align: left;
+    justify-content: center;
 }
